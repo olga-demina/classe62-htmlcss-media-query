@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Mobile-first */
+/* .square {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 1rem;
+}
+
+@media screen and (min-width: 479px) {
+    .square {
+        display: inline-block;
+        background-color: pink;
+    }
+} */
+
+/* Desktop-first  */
+
+.square {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin: 1rem;
+    background-color: pink;
+}
+
+@media screen and (max-width: 478px) {
+    
+    .square {
+        display: block;
+        background-color: blue;
+    }
+}

@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Desktop first */
+
+/* .container {
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+
+
+    background-color: aquamarine;
+}
+
+@media screen and (max-width: 900px) {
+    
+    .container {
+        background-color: rebeccapurple;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    
+    .container {
+        background-color: pink;
+    }
+
+} */
+
+
+/* Mobile-first */
+
+.container {
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+
+
+    background-color: pink;
+}
+
+@media screen and (min-width: 601px) {
+    
+    .container {
+        background-color: rebeccapurple;
+    }
+}
+
+@media screen and (min-width: 901px) {
+
+    .container {
+        background-color: aquamarine;
+    }
+}
